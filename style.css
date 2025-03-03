@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+    font-family: Inconsolata, sans-serif;
+}
+
+:root{
+    --color-white:hsl(0, 0%, 100%);
+    --color-very-light-purple:hsl(252, 6%, 83%);
+    --color-light-purple:hsl(245, 15%, 58%);
+    --color-purple:hsl(245, 19%, 35%);
+    --color--very-dark-purple:- hsl(248, 70%, 10%);
+    --bright-orange:hsl(7, 88%, 67%);
+    --rich-orange:hsl(7, 71%, 60%);
+    --gradient-color:  hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+}
+
+
+/
+
