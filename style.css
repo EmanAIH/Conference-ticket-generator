@@ -4,6 +4,8 @@
     font-family: Inconsolata, sans-serif;
 }
 
+/***** General styles    ******/
+
 :root{
     --color-white:hsl(0, 0%, 100%);
     --color-very-light-purple:hsl(252, 6%, 83%);
@@ -17,9 +19,8 @@
 
 body{
     background-image: url(/assets/images/background-desktop.png);
-    background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +34,29 @@ body::before{
     inset: 0;
     background-image: url('/assets/images/pattern-lines.svg');
 }
+
+
+
+/** Top***/
+.main-top p{
+    font-weight:200;
+}
+
+
+/** form **/
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+form .avatar-div{
+    display:flex;
+    flex-direction:column; 
+}
+
+
+
 
 
 
